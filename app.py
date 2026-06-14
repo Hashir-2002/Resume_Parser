@@ -1,8 +1,5 @@
 import streamlit as st
-import json
-from parser import get_resume_data, load_skills
-
-skills_db = load_skills("C:\\Users\\muham\\Downloads\\skills.csv")
+from parser import get_resume_data
 
 st.title("AI Resume Parser")
 st.write("Upload a resume PDF and extract key information instantly.")
